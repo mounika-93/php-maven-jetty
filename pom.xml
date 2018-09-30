@@ -26,20 +26,9 @@
 						<enabled>true</enabled>
 					</releases>
 				</pluginRepository>
-                             <pluginRepository>
-                                <id>snapshot-repos.php-maven.org</id>
-                                <name>PHP-Maven Snapshot Repository</name>
-                                <url>http://repos.php-maven.org/snapshots</url>
-                                <releases>
-                                   <enabled>false</enabled>
-                                </releases>
-                                <snapshots>
-                                   <enabled>true</enabled>
-                                </snapshots>
-                             </pluginRepository>
-			</pluginRepositories>
-			<repositories>
-				<repository>
+                                </pluginRepositories>
+				<repositories>
+                                 <repository>
 					<id>release-repos.php-maven.org</id>
 					<name>PHP-Maven 2 Release Repository</name>
 					<url>http://repos.php-maven.org/release</url>
@@ -47,17 +36,6 @@
 						<enabled>true</enabled>
 					</releases>
 				</repository>
-                                <repository>
-                                   <id>snapshot-repos.php-maven.org</id>
-                                   <name>PHP-Maven Snapshot Repository</name>
-                                   <url>http://repos.php-maven.org/snapshots</url>
-                                   <releases>
-                                      <enabled>false</enabled>
-                                   </releases>
-                                   <snapshots>
-                                      <enabled>true</enabled>
-                                   </snapshots>
-                                </repository>
 			</repositories>
 
 
